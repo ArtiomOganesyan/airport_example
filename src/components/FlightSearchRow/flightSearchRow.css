@@ -1,0 +1,11 @@
+.flight_search_row {
+  color: white;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.flight_search_row > div {
+  width: 15%;
+  text-align: start;
+}

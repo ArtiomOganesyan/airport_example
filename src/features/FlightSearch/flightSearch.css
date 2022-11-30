@@ -1,0 +1,95 @@
+.flight_search {
+  width: 60vw;
+  min-width: 750px;
+  margin: auto;
+  border-radius: 20px;
+  border: 3px solid silver;
+  background: #051b1fd6;
+  padding: 1rem;
+}
+
+.flight_search-header {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.flight_search-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: rgb(62 62 62 / 67%);
+  border: 3px solid rgb(52 52 52);
+  padding: 0.5rem;
+}
+.flight_search-content > div {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.flight_search-content > div > span {
+  font-family: "Pixel";
+  width: 15px;
+  min-width: 15px;
+  font-size: 15px;
+  background-color: black;
+}
+
+.yellow {
+  color: yellow;
+  animation: light_up_yellow 1s;
+}
+
+.white {
+  color: white;
+  animation: light_up_white 1s;
+}
+
+.red {
+  color: red;
+  animation: light_up_red 1s;
+}
+
+@keyframes light_up_yellow {
+  0% {
+    color: black;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@keyframes light_up_white {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes light_up_red {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+
+/* .flight_search_legend {
+  font-family: "Arial";
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.flight_search_legend > div {
+  display: flex;
+  gap: 2px;
+  text-align: start;
+  font-weight: 500;
+}
+.flight_search_legend > div > span {
+  background-color: black;
+  width: 15px;
+  color: yellow;
+} */
