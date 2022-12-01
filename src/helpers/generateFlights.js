@@ -1,7 +1,7 @@
 const cities = [
   'Moscow', 'London', 'Astana', 'Almaty', 'Hong Kong', 'Beijing',
   'Tokyo', 'San Francisco', 'Orlando', 'Ekaterinburg', 'Paris', 'Berlin', 'Frankfort',
-  'Mexico City', 'Mardid', 'Barcelone', 'Milan', 'Rome',
+  'Mexico City', 'Madrid', 'Barcelone', 'Milan', 'Rome',
 ];
 
 export default (num, from, to) => {

@@ -1,4 +1,11 @@
 import React from 'react';
+import plane1 from '../../assets/plane.jpg';
+import plane2 from '../../assets/plane2.jpg';
+import plane3 from '../../assets/plane3.jpg';
+import city from '../../assets/city.jpg';
+import parking from '../../assets/parking.jpg';
+import airport from '../../assets/airport.jpg';
+
 import './carousel.css';
 
 const style = (backgroundLink) => ({
@@ -15,19 +22,19 @@ export default function Carousel() {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <div style={style('/assets/plane2.jpg')} className="carousel-content">
+            <div style={style(plane1)} className="carousel-content">
               <div>Pilot School For Children</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus.</p>
             </div>
           </div>
           <div className="carousel-item active">
-            <div style={style('/assets/plane.jpg')} className="carousel-content">
+            <div style={style(plane2)} className="carousel-content">
               <div>Save Time With Online Boarding</div>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>
           <div className="carousel-item active">
-            <div style={style('/assets/city.jpg')} className="carousel-content">
+            <div style={style(city)} className="carousel-content">
               <div>Come Visit Kazakhstan</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum non in,
@@ -38,7 +45,7 @@ export default function Carousel() {
             </div>
           </div>
           <div className="carousel-item active">
-            <div style={style('/assets/airport.jpg')} className="carousel-content">
+            <div style={style(airport)} className="carousel-content">
               <div>Your Comfort - Our Priority</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -47,7 +54,7 @@ export default function Carousel() {
             </div>
           </div>
           <div className="carousel-item active">
-            <div style={style('/assets/parking.jpg')} className="carousel-content">
+            <div style={style(parking)} className="carousel-content">
               <div>
                 Always Free - Always Safe
               </div>
@@ -55,7 +62,7 @@ export default function Carousel() {
             </div>
           </div>
           <div className="carousel-item active">
-            <div style={style('/assets/plane3.jpg')} className="carousel-content">
+            <div style={style(plane3)} className="carousel-content">
               <div>World Wide Geography</div>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
