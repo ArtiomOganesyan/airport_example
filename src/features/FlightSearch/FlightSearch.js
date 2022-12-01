@@ -6,7 +6,9 @@ import generateRowArray from '../../helpers/generateRowArray';
 import './flightSearch.css';
 
 export default function FlightSearch() {
-  const { flights, departures, arrivals } = useContext(FlightContext);
+  const {
+    flights, departures, arrivals, searchFlights,
+  } = useContext(FlightContext);
   const [isDeparture, setIsDeparture] = useState(true);
   const header = {
     static: true,
@@ -18,7 +20,13 @@ export default function FlightSearch() {
   };
   const terminal = new Array(20).fill('').map(
     (el, i) => {
-      const result = isDeparture ? departures[i] : arrivals[i];
+      let result;
+      if (searchFlights?.length) {
+        result = searchFlights[i];
+      } else {
+        result = isDeparture ? departures[i] : arrivals[i];
+      }
+
       if (!result) {
         return gap;
       }

@@ -5,7 +5,13 @@ export default function Navbar() {
   return (
     <div className="navbar-body">
 
-      <button type="button" className="navbar-logo"> </button>
+      <button
+        type="button"
+        className="navbar-logo"
+        onClick={() => { window.location.href = 'http://www.oralairport.kz/'; }}
+      >
+        {' '}
+      </button>
       <button type="button" className="navbar-item">
         To & From Airport
       </button>

@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
+import { FlightContext } from '../../context/FlightContext';
 import './flightSearchInput.css';
 
 export default function FlightSearchInput({ handleIsDeparture, isDeparture }) {
-  console.log(isDeparture);
+  const [input, setInput] = useState('');
+
+  const { handleSearch } = useContext(FlightContext);
+
   return (
     <div className="flight_search_input">
       <label>
         Search for your flight.
       </label>
-      <input type="search" id="search-flight-input" />
+      <input
+        type="search"
+        value={input}
+        onChange={(e) => {
+          setInput(e.target.value);
+          handleSearch(e.target.value, isDeparture);
+        }}
+        id="search-flight-input"
+      />
       <div
         className="btn-group btn-group-toggle"
         data-toggle="buttons"
@@ -18,7 +30,11 @@ export default function FlightSearchInput({ handleIsDeparture, isDeparture }) {
             type="radio"
             name="options"
             id="option1"
-            onChange={() => handleIsDeparture(true)}
+            onChange={() => {
+              setInput('');
+              handleSearch(null);
+              handleIsDeparture(true);
+            }}
             autoComplete="off"
             checked={isDeparture}
           />
@@ -30,7 +46,11 @@ export default function FlightSearchInput({ handleIsDeparture, isDeparture }) {
             type="radio"
             name="options"
             id="option2"
-            onChange={() => handleIsDeparture(false)}
+            onChange={() => {
+              setInput('');
+              handleSearch(null);
+              handleIsDeparture(false);
+            }}
             autoComplete="off"
             checked={!isDeparture}
           />

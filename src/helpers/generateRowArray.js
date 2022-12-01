@@ -39,6 +39,6 @@ export default function (row, isDeparture) {
   ), ...columnTwo.map(
     (cell) => <span className="white" key={Math.random()}>{cell}</span>,
   ), ...columnThree.map(
-    (cell) => <span className="white" key={Math.random()}>{cell}</span>,
+    (cell) => cell || <span className="white" key={Math.random()}>{cell}</span>,
   )];
 }

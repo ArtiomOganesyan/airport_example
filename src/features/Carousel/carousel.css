@@ -7,6 +7,7 @@
 }
 .carousel-content {
   height: 90vh;
+  max-height: 1500px;
   padding: 10rem;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,7 @@
 
 .carousel-content > p {
   width: 60vw;
+  max-width: 1250px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 1rem;

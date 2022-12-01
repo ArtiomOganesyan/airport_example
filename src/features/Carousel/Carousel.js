@@ -13,16 +13,7 @@ export default function Carousel() {
     <div className="carousel-wrapper">
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <div style={style('/assets/plane3.jpg')} className="carousel-content">
-              <div>World Wide Geography</div>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia architecto ipsam enim id vero totam minima facere quisquam commodi
-                est modi illum rerum non, qui atque incidunt, sit ipsum accusantium.
-              </p>
-            </div>
-          </div>
+
           <div className="carousel-item active">
             <div style={style('/assets/plane2.jpg')} className="carousel-content">
               <div>Pilot School For Children</div>
@@ -63,7 +54,16 @@ export default function Carousel() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
-
+          <div className="carousel-item active">
+            <div style={style('/assets/plane3.jpg')} className="carousel-content">
+              <div>World Wide Geography</div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Mollitia architecto ipsam enim id vero totam minima facere quisquam commodi
+                est modi illum rerum non, qui atque incidunt, sit ipsum accusantium.
+              </p>
+            </div>
+          </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true" />
