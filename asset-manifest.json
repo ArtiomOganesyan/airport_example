@@ -1,20 +1,35 @@
 {
   "files": {
     "main.css": "/airport_example/static/css/main.3dbc1f69.css",
-    "main.js": "/airport_example/static/js/main.c210205a.js",
+    "main.js": "/airport_example/static/js/main.cebd9062.js",
+    "static/media/airport.jpg": "/airport_example/static/media/airport.65259de1f486142d0e28.jpg",
+    "static/media/parking.jpg": "/airport_example/static/media/parking.019a19cc323423c218b0.jpg",
     "static/media/private_lounge.jpg": "/airport_example/static/media/private_lounge.112432018394b53ea3d6.jpg",
+    "static/media/city.jpg": "/airport_example/static/media/city.67fe7495d7382029c907.jpg",
     "static/media/Air_Train.jpg": "/airport_example/static/media/Air_Train.6f16c49de06bd908e2b9.jpg",
     "static/media/airport_forest.jpg": "/airport_example/static/media/airport_forest.18bb60edfa6814d1bd79.jpg",
+    "static/media/plane.jpg": "/airport_example/static/media/plane.bc1872bf68ede334c1f0.jpg",
+    "static/media/plane2.jpg": "/airport_example/static/media/plane2.5a42666d95ed419772e2.jpg",
     "static/media/logo.jpg": "/airport_example/static/media/logo.3654086406ea0bd9fc89.jpg",
     "static/media/airport_shops.jpg": "/airport_example/static/media/airport_shops.ca0fd8433e76d4d0bd77.jpg",
     "static/media/airport_taxi.jpg": "/airport_example/static/media/airport_taxi.0b86cef6c45d30e7e0bd.jpg",
+    "static/media/plane3.jpg": "/airport_example/static/media/plane3.dad598971e24e16995b3.jpg",
+    "static/media/2.jpg": "/airport_example/static/media/2.c06e5981c632ba9216ca.jpg",
     "static/media/subway-ticker.regular.ttf": "/airport_example/static/media/subway-ticker.regular.edc9360680ecd0794b88.ttf",
+    "static/media/3.jpg": "/airport_example/static/media/3.0329edf2ccc01dd509dd.jpg",
+    "static/media/7.jpg": "/airport_example/static/media/7.d34470c6d4a36d0fd0a1.jpg",
+    "static/media/6.jpg": "/airport_example/static/media/6.c840a5e3c43fdbdcdde4.jpg",
+    "static/media/4.jpg": "/airport_example/static/media/4.7ef02b106bc20e216222.jpg",
+    "static/media/1.jpg": "/airport_example/static/media/1.8e40ce02537892c24b1b.jpg",
+    "static/media/9.jpg": "/airport_example/static/media/9.368a238262c87f423333.jpg",
+    "static/media/8.jpg": "/airport_example/static/media/8.db1ba230a380c74a3dc3.jpg",
+    "static/media/5.jpg": "/airport_example/static/media/5.7e880df3e991ebe56aa1.jpg",
     "index.html": "/airport_example/index.html",
     "main.3dbc1f69.css.map": "/airport_example/static/css/main.3dbc1f69.css.map",
-    "main.c210205a.js.map": "/airport_example/static/js/main.c210205a.js.map"
+    "main.cebd9062.js.map": "/airport_example/static/js/main.cebd9062.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbc1f69.css",
-    "static/js/main.c210205a.js"
+    "static/js/main.cebd9062.js"
   ]
 }
