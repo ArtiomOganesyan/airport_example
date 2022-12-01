@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/airport_example/static/css/main.3dbc1f69.css",
-    "main.js": "/airport_example/static/js/main.cebd9062.js",
+    "main.js": "/airport_example/static/js/main.faf3d3e7.js",
     "static/media/airport.jpg": "/airport_example/static/media/airport.65259de1f486142d0e28.jpg",
     "static/media/parking.jpg": "/airport_example/static/media/parking.019a19cc323423c218b0.jpg",
     "static/media/private_lounge.jpg": "/airport_example/static/media/private_lounge.112432018394b53ea3d6.jpg",
     "static/media/city.jpg": "/airport_example/static/media/city.67fe7495d7382029c907.jpg",
+    "static/media/loader.gif": "/airport_example/static/media/loader.f74ea10ee478b8e8e5c0.gif",
     "static/media/Air_Train.jpg": "/airport_example/static/media/Air_Train.6f16c49de06bd908e2b9.jpg",
     "static/media/airport_forest.jpg": "/airport_example/static/media/airport_forest.18bb60edfa6814d1bd79.jpg",
     "static/media/plane.jpg": "/airport_example/static/media/plane.bc1872bf68ede334c1f0.jpg",
@@ -26,10 +27,10 @@
     "static/media/5.jpg": "/airport_example/static/media/5.7e880df3e991ebe56aa1.jpg",
     "index.html": "/airport_example/index.html",
     "main.3dbc1f69.css.map": "/airport_example/static/css/main.3dbc1f69.css.map",
-    "main.cebd9062.js.map": "/airport_example/static/js/main.cebd9062.js.map"
+    "main.faf3d3e7.js.map": "/airport_example/static/js/main.faf3d3e7.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbc1f69.css",
-    "static/js/main.cebd9062.js"
+    "static/js/main.faf3d3e7.js"
   ]
 }
