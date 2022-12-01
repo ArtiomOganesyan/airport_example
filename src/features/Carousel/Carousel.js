@@ -22,19 +22,19 @@ export default function Carousel() {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <div style={style(plane1)} className="carousel-content">
+            <div style={style(plane1)} className="carousel-content ">
               <div>Pilot School For Children</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus.</p>
             </div>
           </div>
-          <div className="carousel-item active">
-            <div style={style(plane2)} className="carousel-content">
+          <div className="carousel-item">
+            <div style={style(plane2)} className="carousel-content ">
               <div>Save Time With Online Boarding</div>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>
-          <div className="carousel-item active">
-            <div style={style(city)} className="carousel-content">
+          <div className="carousel-item">
+            <div style={style(city)} className="carousel-content ">
               <div>Come Visit Kazakhstan</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum non in,
@@ -44,8 +44,8 @@ export default function Carousel() {
               </p>
             </div>
           </div>
-          <div className="carousel-item active">
-            <div style={style(airport)} className="carousel-content">
+          <div className="carousel-item">
+            <div style={style(airport)} className="carousel-content ">
               <div>Your Comfort - Our Priority</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,16 +53,16 @@ export default function Carousel() {
               </p>
             </div>
           </div>
-          <div className="carousel-item active">
-            <div style={style(parking)} className="carousel-content">
+          <div className="carousel-item">
+            <div style={style(parking)} className="carousel-content ">
               <div>
                 Always Free - Always Safe
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
-          <div className="carousel-item active">
-            <div style={style(plane3)} className="carousel-content">
+          <div className="carousel-item">
+            <div style={style(plane3)} className="carousel-content ">
               <div>World Wide Geography</div>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
